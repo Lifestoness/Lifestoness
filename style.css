@@ -1,0 +1,35 @@
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/1115817891921678438/1125615126838509630/Cozy_Feeling_High-Resolution_Wallpaper_Collection_-_Imgur.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #135dab;
+}

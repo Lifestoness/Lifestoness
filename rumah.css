@@ -1,0 +1,107 @@
+/* Gaya dasar untuk halaman web */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Gaya header */
+header {
+  position: fixed;
+  width: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/1125082783178567700/1125722550543056966/Cozy_Feeling_High-Resolution_Wallpaper_Collection_-_Imgur.jpeg");
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 0;
+  z-index: 999;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+/* Gaya logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Gaya judul halaman */
+h1 {
+  color: #333;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Gaya hero section */
+.hero {
+  background-color: #754a00;
+  background-size: cover;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Gaya discord section */
+.discord-section {
+  background-image: url("https://cdn.discordapp.com/attachments/1125082783178567700/1125738610914762813/1959300.jpg");
+  background-size: cover;
+  color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Gaya footer */
+footer {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Gaya tautan */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Gaya tombol */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Gaya gambar bundar */
+.rounded-image {
+  border-radius: 50%;
+}
+
+/* Gaya efek animasi */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease;
+}
